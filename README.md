@@ -1,6 +1,6 @@
 # npmtest-decamelize
 
-#### test coverage for  [decamelize (v1.2.0)](https://github.com/sindresorhus/decamelize#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-decamelize.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-decamelize) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-decamelize.svg)](https://travis-ci.org/npmtest/node-npmtest-decamelize)
+#### basic test coverage for  [decamelize (v1.2.0)](https://github.com/sindresorhus/decamelize#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-decamelize.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-decamelize) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-decamelize.svg)](https://travis-ci.org/npmtest/node-npmtest-decamelize)
 
 #### Convert a camelized string into a lowercased one with a custom separator: unicornRainbow → unicorn_rainbow
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-decamelize/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-decamelize/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-decamelize/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-decamelize/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-decamelize/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-decamelize/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-decamelize/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-decamelize/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-decamelize/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-decamelize/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-decamelize/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-decamelize/build/coverage.html/index.html)
 
@@ -89,7 +89,8 @@
     "scripts": {
         "test": "xo && ava"
     },
-    "version": "1.2.0"
+    "version": "1.2.0",
+    "bin": {}
 }
 ```
 
